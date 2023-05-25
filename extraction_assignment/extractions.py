@@ -41,6 +41,7 @@ def executable():
 
     save_emails(emails, filename)
     print(f"Emails saved to '{filename}'.")
+    input("Press Enter to exit...")
 
 
 if __name__ == '__main__':
